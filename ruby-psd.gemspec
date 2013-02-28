@@ -1,12 +1,13 @@
-Gem::Specification.new do |s|
-  s.name        = 'ruby-psd'
-  s.version     = '0.0.1'
-  s.date        = '2013-02-27'
-  s.summary     = "Accessing and generating psd files."
-  s.description = "This gem is made for generating and accessing psd file from ruby. "
-  s.authors     = ["Shunter"]
-  s.email       = 'shunter1112@gmail.com'
-  s.files       = ["lib/main.rb"]
-  s.homepage    =
-    'http://rubygems.org/gems/ruby-psd'
+# -*- encoding: utf-8 -*-
+
+Gem::Specification.new do |gem|
+  gem.authors       = ['Shunter']
+  gem.email         = ['shunter1112@gmail.com']
+  gem.description   = %q{Generating psd skeleton file simple and by scriping of Ruby}
+  gem.summary       = %q{Generating psd skeleton file simple and by scriping of Ruby}
+  gem.homepage      = 'http://github.com/shunter1112/ruby-psd'
+  gem.date          = '2013-02-28'
+  gem.files         = ["lib/ruby-psd.rb"]
+  gem.name          = 'ruby-psd'
+  gem.version       = '1.0.0' 
 end
