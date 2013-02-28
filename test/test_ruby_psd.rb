@@ -1,4 +1,4 @@
-require '../lib/main.rb'
+require '../lib/ruby_psd.rb'
 
 psd = RubyPSD.new("./sample.psd")
 #Generate New Document
